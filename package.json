@@ -1,0 +1,26 @@
+{
+  "name": "ngo-donation-dapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ethersproject/bignumber": "^5.7.0",
+    "@metamask/providers": "^10.2.1",
+    "ethers": "^5.7.2",
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "hardhat": "^2.22.5"
+  }
+}

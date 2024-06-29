@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(0, 0, 23);
+  color: white;
+  font-family: "Playwrite DE Grund", cursive;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  text-align: center;
+}
+
+input {
+  width: 100px;
+  text-align: center;
+}
+
+div {
+  margin: 10px 0;
+}
+
+.info p {
+  font-size: 17px;
+}
+
+.connect-button {
+  background-color: rgb(197, 6, 82);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Playwrite DE Grund", cursive;
+}
+
+.thank-you-image {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.donate-again-button,
+.donate-button {
+  background-color: rgb(197, 6, 82);
+  padding: 20px 20px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  font-family: "Playwrite DE Grund", cursive;
+}
+
+.donate-input {
+  padding: 20px 30px;
+  font-size: 15px;
+}
