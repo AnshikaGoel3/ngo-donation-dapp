@@ -1,40 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project: Function Frontend
+
+This project is under ETH+AVAX intermediate EVM course from metacrafters.
+The objective of this project was to create a simple contract having 2-3 functions and display the values of those functions on frontend
+
+## Description
+For this frontend project, I have created a NGO DONATION DAPP:
+The main goal of the NGO donation DApp is to make allow people to donate to NGO by utilizing Ethereum blockchain technology. Individuals are able to link their MetaMask wallets to engage with the DApp, see their account information, give donations in form of ETHERS, and monitor donation statistics like the present balance, overall donations gathered, and the number of donors.
 
 ## Getting Started
 
-First, run the development server:
+### Installing
+1. Download the Project by cloning the repository from GitHub or downloading the project ZIP file.
+   
+### Executing program
+1. Open the Project in your Integrated Development Environment (IDE).
+2. Open a terminal and install the dependencies using the command `npm install`.
+3. Open another terminal and run `npx hardhat node`.
+4. In a new terminal, deploy contracts to the local network with `npx hardhat run - 
+   network localhost scripts/deploy.js`.
+5. Finally, start the frontend by running `npm run dev` to launch it on localhost:3000.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Steps to Create MetaMask Account
+1. Install the MetaMask extension and add it to your browser.
+2. Create a new account using your credentials.
+3. Add a new network by clicking on "Custom RPC" in the network section.
+4. Enter the following details:
+      * Network Name: localhost
+      * New RPC URL: http://127.0.0.1:8545/
+      * Chain ID: 31337
+      * Currency Symbol: ETH
+5. Save the network configuration.
+6. Now add a new account by clicking on "Import Account".
+7. Add the private key from the network you set up in your terminal when running npx hardhat 
+   node.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Program Working
+1. Once the frontend is running properly, click on "Connect to MetaMask."
+2. After clicking, it will prompt you to enter the donation amount.
+3. After donating, you will see your account details, total donations, and the number of donors.
+4. A thank you message will appear with a button to donate again.
